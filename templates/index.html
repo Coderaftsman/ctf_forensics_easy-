@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensics Easy | Cyberthone</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: radial-gradient(circle at top, #0f172a, #020617);
+            color: #e2e8f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.9);
+            border: 1px solid #22c55e40;
+            padding: 40px;
+            border-radius: 18px;
+            text-align: center;
+            width: 90%;
+            max-width: 420px;
+            box-shadow: 0 0 40px #22c55e20;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #22c55e;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 15px;
+            color: #94a3b8;
+            margin-bottom: 25px;
+        }
+
+        .matrix-text {
+            font-size: 22px;
+            letter-spacing: 4px;
+            color: #22c55e;
+            margin-bottom: 25px;
+            text-shadow: 0 0 12px #22c55e;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #22c55e;
+            color: #020617;
+            font-weight: bold;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.25s ease;
+            box-shadow: 0 0 12px #22c55e80;
+        }
+
+        .download-btn:hover {
+            background: #16a34a;
+            transform: translateY(-2px);
+            box-shadow: 0 0 18px #22c55e;
+        }
+
+        .hint {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        footer {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #334155;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="title">Forensics – Easy</div>
+        <div class="subtitle">Cyberthone Challenge</div>
+
+        <div class="matrix-text">CYBER MATRIX</div>
+
+        <p class="subtitle">
+            Download the image and investigate it carefully.<br>
+            The truth is hidden deeper than you think.
+        </p>
+
+        <a href="/download" class="download-btn">⬇ Download Evidence</a>
+
+        <div class="hint">
+            Hint: Sometimes the answer is not visible… but stored.
+        </div>
+
+        <footer>
+            Cyberthone • Digital Forensics Division
+        </footer>
+    </div>
+
+</body>
+</html>

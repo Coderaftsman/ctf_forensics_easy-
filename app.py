@@ -7,7 +7,7 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Correct file path inside project
-FILE_PATH = os.path.join(BASE_DIR, "files", "forensics_easy_image.png")
+FILE_PATH = os.path.join(BASE_DIR, "files", "forensics_easy_image .png")
 
 
 @app.route("/")
@@ -25,3 +25,4 @@ def download():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
+
